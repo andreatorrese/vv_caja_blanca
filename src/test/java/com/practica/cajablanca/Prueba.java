@@ -54,44 +54,7 @@ class Prueba {
 	
 	
 	
-	@DisplayName("indexOf")
-    @ParameterizedTest(name = "{index} =>elem={0}, esperado={1}")
-    @CsvSource(value = {
-            "A:     1",
-            "B:     2", 
-            "C:     3",
-            "Z:     -1",
-            "@:     -1",
-            "m:     -1",
-            "L:     -1",
-            }, delimiter = ':')
-    void test_csv4(String s, int salida) {
-        if(s.equals("A") || s.equals("B") || s.equals("C")){
-            assertEquals(this.miLista.indexOf(s), salida);
-        }
-        else {
-            assertThrows(IllegalArgumentException.class, () -> {
-                  Integer.valueOf(s);
-        });
-    }
-    }
 
-
-    @DisplayName("isEmptyLleno")
-    @Test //unitario con A
-    public void isEmpty_lleno() {
-        boolean prueba_lleno=false;
-
-        assertEquals(prueba_lleno, this.miLista.isEmpty());
-    }
-    @DisplayName("isEmptyVacio")
-    @Test //unitario con A
-    public void isEmpty_vacio() {
-        boolean prueba_vacio=true;
-
-      //  assertEquals(prueba_vacio, this.miListaVacia.isEmpty());
-    }
-	
 	
 	
 	
