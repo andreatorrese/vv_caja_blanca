@@ -3,12 +3,6 @@ GRUPO IWM-41-Grupo 9
 
 ## Instrucciones para utilizar este proyecto
 
-* Cada alumno debe crearse un usuario de Github
-* Un miembro del grupo debe hacer fork a este proyecto y añadir al repositorio forkeado a sus compañeros de grupo y al profesor como colaboradores.
-* Descargar el proyecto utilizando git clone desde el terminal o desde el IDE.
-* Seguir las indicaciones del enunciado para añadir las dependencias necesarias para empezar a realizar las pruebas
-* Modificar este fichero añadiendo el número de grupo correspondiente y las instrucciones para ejecutar la práctica
-
 Se deben seguir las mismas instrucciones que en el proyecto de caja negra para ejecutar las pruebas:
 
 ## Instrucciones para poder ejecutar las pruebas en ECLIPSE:
@@ -27,3 +21,4 @@ Si el path tiene espacios podemos ponerlo entre comillas:
 Tener en cuenta que en este proyecto la librería SingleList.jar se encuentra dentro de la carpeta: "Libraries".
 
 Una vez realizado esto, se podrán ejecutar como JUnit tests los que figuran en el archivo Prueba.java 
+Puede encontrar la documentacion de los tests en la Memoria del proyecto adjunta en moodle en formato pdf, dentro del .zip que contiene tales archivos
